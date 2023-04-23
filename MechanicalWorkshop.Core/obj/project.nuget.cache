@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oSB9QIXx21b1fdtZpB5V5ggAuhg+pU4J8eA/XBjxEiyIjq8EMLYEFoN/ykGelhoVdJdnWlDEswWvknsg/AI07g==",
+  "dgSpecHash": "wFtklM4Bjh5I0mAsgqYGtW4VoZy1HqnL7hYdaUEMeOqg8P8BUeCVEMv7pOEfZoRzClh/DV3mNlAxQqnijJreLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Marcos.Fontenla\\Desktop\\BACKUP\\Documents\\VisualStudioProjects\\WebApiProjects\\MechanicalWorkshop.Api\\MechanicalWorkshop.Core\\MechanicalWorkshop.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Marcos.Fontenla\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+  ],
   "logs": []
 }

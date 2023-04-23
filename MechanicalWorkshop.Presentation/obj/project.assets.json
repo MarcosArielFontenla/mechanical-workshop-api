@@ -1,11 +1,64 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Dapper/2.0.123": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MechanicalWorkshop.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dapper": "2.0.123"
+        },
+        "compile": {
+          "bin/placeholder/MechanicalWorkshop.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MechanicalWorkshop.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dapper/2.0.123": {
+      "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
+      "type": "package",
+      "path": "dapper/2.0.123",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.0.123.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "MechanicalWorkshop.Core/1.0.0": {
+      "type": "project",
+      "path": "../MechanicalWorkshop.Core/MechanicalWorkshop.Core.csproj",
+      "msbuildProject": "../MechanicalWorkshop.Core/MechanicalWorkshop.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MechanicalWorkshop.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Marcos.Fontenla\\.nuget\\packages\\": {},
@@ -39,7 +92,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Marcos.Fontenla\\Desktop\\BACKUP\\Documents\\VisualStudioProjects\\WebApiProjects\\MechanicalWorkshop.Api\\MechanicalWorkshop.Core\\MechanicalWorkshop.Core.csproj": {
+              "projectPath": "C:\\Users\\Marcos.Fontenla\\Desktop\\BACKUP\\Documents\\VisualStudioProjects\\WebApiProjects\\MechanicalWorkshop.Api\\MechanicalWorkshop.Core\\MechanicalWorkshop.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
